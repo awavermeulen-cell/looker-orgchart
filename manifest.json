@@ -2,8 +2,8 @@
   "name": "Employee Org Chart",
   "description": "Organization chart showing employee hierarchy with photo and details",
   "organization": "MIT",
-  "supportUrl": "https://github.com/awavermuelen-cell/looker-orgchart",
-  "privacyPolicyUrl": "https://github.com/awavermuelen-cell/looker-orgchart",
+  "supportUrl": "https://github.com/awavermeulen-cell/looker-orgchart",
+  "privacyPolicyUrl": "https://github.com/awavermeulen-cell/looker-orgchart",
   "devMode": true,
   "components": [
     {
@@ -11,13 +11,19 @@
       "name": "Org Chart",
       "description": "Employee Organization Chart",
       "iconUrl": "",
-      "resource": {
-        "js": ["index.js"],
-        "css": []
-      },
+      "resource": { "js": ["index.js"], "css": [] },
       "data": {
         "concepts": [
-          { "id": "employeeName", "name": "Employee Name", "type": "DIMENSION" }
+          { "id": "employeeName", "name": "Employee Name", "type": "DIMENSION" },
+          { "id": "employeeKey", "name": "Employee Key", "type": "DIMENSION" },
+          { "id": "managerName", "name": "Manager Name", "type": "DIMENSION" },
+          { "id": "managerKey", "name": "Manager Key", "type": "DIMENSION" },
+          { "id": "role", "name": "Role", "type": "DIMENSION" },
+          { "id": "department", "name": "Department", "type": "DIMENSION" },
+          { "id": "company", "name": "Company", "type": "DIMENSION" },
+          { "id": "country", "name": "Country", "type": "DIMENSION" },
+          { "id": "branch", "name": "Branch", "type": "DIMENSION" },
+          { "id": "photoUrl", "name": "Photo URL", "type": "DIMENSION" }
         ]
       }
     }
