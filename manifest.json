@@ -1,0 +1,24 @@
+{
+  "name": "Employee Org Chart",
+  "description": "Organization chart showing employee hierarchy with photo and details",
+  "organization": "MIT",
+  "logoUrl": "",
+  "supportUrl": "",
+  "privacyPolicyUrl": "",
+  "devMode": true,
+  "components": [
+    {
+      "id": "orgchart",
+      "name": "Org Chart",
+      "description": "Employee Organization Chart",
+      "iconUrl": "",
+      "resource": {
+        "js": ["index.js"],
+        "css": []
+      },
+      "data": {
+        "concepts": true
+      }
+    }
+  ]
+}

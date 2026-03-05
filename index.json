@@ -1,0 +1,56 @@
+{
+  "data": {
+    "concepts": [
+      {
+        "id": "employeeName",
+        "name": "Employee Name",
+        "type": "DIMENSION"
+      },
+      {
+        "id": "employeeKey",
+        "name": "Employee Key",
+        "type": "DIMENSION"
+      },
+      {
+        "id": "managerName",
+        "name": "Manager Name",
+        "type": "DIMENSION"
+      },
+      {
+        "id": "managerKey",
+        "name": "Manager Key",
+        "type": "DIMENSION"
+      },
+      {
+        "id": "role",
+        "name": "Role",
+        "type": "DIMENSION"
+      },
+      {
+        "id": "department",
+        "name": "Department",
+        "type": "DIMENSION"
+      },
+      {
+        "id": "company",
+        "name": "Company",
+        "type": "DIMENSION"
+      },
+      {
+        "id": "country",
+        "name": "Country",
+        "type": "DIMENSION"
+      },
+      {
+        "id": "branch",
+        "name": "Branch",
+        "type": "DIMENSION"
+      },
+      {
+        "id": "photoUrl",
+        "name": "Photo URL",
+        "type": "DIMENSION"
+      }
+    ]
+  }
+}
